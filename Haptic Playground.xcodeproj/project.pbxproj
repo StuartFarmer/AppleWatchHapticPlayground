@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C835F971B38525E008531F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C835F961B38525E008531F2 /* main.m */; };
+		9C835F9A1B38525E008531F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C835F991B38525E008531F2 /* AppDelegate.m */; };
+		9C835F9D1B38525E008531F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C835F9C1B38525E008531F2 /* ViewController.m */; };
+		9C835FA01B38525E008531F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C835F9E1B38525E008531F2 /* Main.storyboard */; };
+		9C835FA21B38525E008531F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C835FA11B38525E008531F2 /* Assets.xcassets */; };
+		9C835FA51B38525E008531F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C835FA31B38525E008531F2 /* LaunchScreen.storyboard */; };
+		9C835FAA1B38525E008531F2 /* Haptic Playground WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9C835FA91B38525E008531F2 /* Haptic Playground WatchKit App.app */; };
+		9C835FB01B38525E008531F2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C835FAE1B38525E008531F2 /* Interface.storyboard */; };
+		9C835FB21B38525E008531F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C835FB11B38525E008531F2 /* Assets.xcassets */; };
+		9C835FB91B38525E008531F2 /* Haptic Playground WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9C835FB81B38525E008531F2 /* Haptic Playground WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C835FBF1B38525E008531F2 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C835FBE1B38525E008531F2 /* InterfaceController.m */; };
+		9C835FC21B38525E008531F2 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C835FC11B38525E008531F2 /* ExtensionDelegate.m */; };
+		9C835FC41B38525E008531F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C835FC31B38525E008531F2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C835FAB1B38525E008531F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C835F8A1B38525E008531F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C835FA81B38525E008531F2;
+			remoteInfo = "Haptic Playground WatchKit App";
+		};
+		9C835FBA1B38525E008531F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C835F8A1B38525E008531F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C835FB71B38525E008531F2;
+			remoteInfo = "Haptic Playground WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C835FCB1B38525E008531F2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9C835FB91B38525E008531F2 /* Haptic Playground WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C835FCF1B38525E008531F2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9C835FAA1B38525E008531F2 /* Haptic Playground WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C835F921B38525E008531F2 /* Haptic Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C835F961B38525E008531F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C835F981B38525E008531F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C835F991B38525E008531F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C835F9B1B38525E008531F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C835F9C1B38525E008531F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C835F9F1B38525E008531F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C835FA11B38525E008531F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C835FA41B38525E008531F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C835FA61B38525E008531F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C835FA91B38525E008531F2 /* Haptic Playground WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Playground WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C835FAF1B38525E008531F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9C835FB11B38525E008531F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C835FB31B38525E008531F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C835FB81B38525E008531F2 /* Haptic Playground WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Haptic Playground WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C835FBD1B38525E008531F2 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9C835FBE1B38525E008531F2 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		9C835FC01B38525E008531F2 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		9C835FC11B38525E008531F2 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		9C835FC31B38525E008531F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C835FC51B38525E008531F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C835F8F1B38525E008531F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C835FB51B38525E008531F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C835F891B38525E008531F2 = {
+			isa = PBXGroup;
+			children = (
+				9C835F941B38525E008531F2 /* Haptic Playground */,
+				9C835FAD1B38525E008531F2 /* Haptic Playground WatchKit App */,
+				9C835FBC1B38525E008531F2 /* Haptic Playground WatchKit Extension */,
+				9C835F931B38525E008531F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C835F931B38525E008531F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C835F921B38525E008531F2 /* Haptic Playground.app */,
+				9C835FA91B38525E008531F2 /* Haptic Playground WatchKit App.app */,
+				9C835FB81B38525E008531F2 /* Haptic Playground WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C835F941B38525E008531F2 /* Haptic Playground */ = {
+			isa = PBXGroup;
+			children = (
+				9C835F981B38525E008531F2 /* AppDelegate.h */,
+				9C835F991B38525E008531F2 /* AppDelegate.m */,
+				9C835F9B1B38525E008531F2 /* ViewController.h */,
+				9C835F9C1B38525E008531F2 /* ViewController.m */,
+				9C835F9E1B38525E008531F2 /* Main.storyboard */,
+				9C835FA11B38525E008531F2 /* Assets.xcassets */,
+				9C835FA31B38525E008531F2 /* LaunchScreen.storyboard */,
+				9C835FA61B38525E008531F2 /* Info.plist */,
+				9C835F951B38525E008531F2 /* Supporting Files */,
+			);
+			path = "Haptic Playground";
+			sourceTree = "<group>";
+		};
+		9C835F951B38525E008531F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C835F961B38525E008531F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C835FAD1B38525E008531F2 /* Haptic Playground WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9C835FAE1B38525E008531F2 /* Interface.storyboard */,
+				9C835FB11B38525E008531F2 /* Assets.xcassets */,
+				9C835FB31B38525E008531F2 /* Info.plist */,
+			);
+			path = "Haptic Playground WatchKit App";
+			sourceTree = "<group>";
+		};
+		9C835FBC1B38525E008531F2 /* Haptic Playground WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9C835FBD1B38525E008531F2 /* InterfaceController.h */,
+				9C835FBE1B38525E008531F2 /* InterfaceController.m */,
+				9C835FC01B38525E008531F2 /* ExtensionDelegate.h */,
+				9C835FC11B38525E008531F2 /* ExtensionDelegate.m */,
+				9C835FC31B38525E008531F2 /* Assets.xcassets */,
+				9C835FC51B38525E008531F2 /* Info.plist */,
+			);
+			path = "Haptic Playground WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C835F911B38525E008531F2 /* Haptic Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C835FD01B38525E008531F2 /* Build configuration list for PBXNativeTarget "Haptic Playground" */;
+			buildPhases = (
+				9C835F8E1B38525E008531F2 /* Sources */,
+				9C835F8F1B38525E008531F2 /* Frameworks */,
+				9C835F901B38525E008531F2 /* Resources */,
+				9C835FCF1B38525E008531F2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C835FAC1B38525E008531F2 /* PBXTargetDependency */,
+			);
+			name = "Haptic Playground";
+			productName = "Haptic Playground";
+			productReference = 9C835F921B38525E008531F2 /* Haptic Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C835FA81B38525E008531F2 /* Haptic Playground WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C835FCC1B38525E008531F2 /* Build configuration list for PBXNativeTarget "Haptic Playground WatchKit App" */;
+			buildPhases = (
+				9C835FA71B38525E008531F2 /* Resources */,
+				9C835FCB1B38525E008531F2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C835FBB1B38525E008531F2 /* PBXTargetDependency */,
+			);
+			name = "Haptic Playground WatchKit App";
+			productName = "Haptic Playground WatchKit App";
+			productReference = 9C835FA91B38525E008531F2 /* Haptic Playground WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9C835FB71B38525E008531F2 /* Haptic Playground WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C835FC81B38525E008531F2 /* Build configuration list for PBXNativeTarget "Haptic Playground WatchKit Extension" */;
+			buildPhases = (
+				9C835FB41B38525E008531F2 /* Sources */,
+				9C835FB51B38525E008531F2 /* Frameworks */,
+				9C835FB61B38525E008531F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haptic Playground WatchKit Extension";
+			productName = "Haptic Playground WatchKit Extension";
+			productReference = 9C835FB81B38525E008531F2 /* Haptic Playground WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C835F8A1B38525E008531F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stuart Farmer";
+				TargetAttributes = {
+					9C835F911B38525E008531F2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9C835FA81B38525E008531F2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9C835FB71B38525E008531F2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9C835F8D1B38525E008531F2 /* Build configuration list for PBXProject "Haptic Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C835F891B38525E008531F2;
+			productRefGroup = 9C835F931B38525E008531F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C835F911B38525E008531F2 /* Haptic Playground */,
+				9C835FA81B38525E008531F2 /* Haptic Playground WatchKit App */,
+				9C835FB71B38525E008531F2 /* Haptic Playground WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C835F901B38525E008531F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C835FA51B38525E008531F2 /* LaunchScreen.storyboard in Resources */,
+				9C835FA21B38525E008531F2 /* Assets.xcassets in Resources */,
+				9C835FA01B38525E008531F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C835FA71B38525E008531F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C835FB21B38525E008531F2 /* Assets.xcassets in Resources */,
+				9C835FB01B38525E008531F2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C835FB61B38525E008531F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C835FC41B38525E008531F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C835F8E1B38525E008531F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C835F9D1B38525E008531F2 /* ViewController.m in Sources */,
+				9C835F9A1B38525E008531F2 /* AppDelegate.m in Sources */,
+				9C835F971B38525E008531F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C835FB41B38525E008531F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C835FC21B38525E008531F2 /* ExtensionDelegate.m in Sources */,
+				9C835FBF1B38525E008531F2 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C835FAC1B38525E008531F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C835FA81B38525E008531F2 /* Haptic Playground WatchKit App */;
+			targetProxy = 9C835FAB1B38525E008531F2 /* PBXContainerItemProxy */;
+		};
+		9C835FBB1B38525E008531F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C835FB71B38525E008531F2 /* Haptic Playground WatchKit Extension */;
+			targetProxy = 9C835FBA1B38525E008531F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C835F9E1B38525E008531F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C835F9F1B38525E008531F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C835FA31B38525E008531F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C835FA41B38525E008531F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C835FAE1B38525E008531F2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C835FAF1B38525E008531F2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C835FC61B38525E008531F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C835FC71B38525E008531F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C835FC91B38525E008531F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Haptic Playground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartfarmer.Haptic-Playground.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9C835FCA1B38525E008531F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Haptic Playground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartfarmer.Haptic-Playground.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9C835FCD1B38525E008531F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Haptic_Playground_WatchKit_Extension;
+				INFOPLIST_FILE = "Haptic Playground WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartfarmer.Haptic-Playground.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9C835FCE1B38525E008531F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Haptic_Playground_WatchKit_Extension;
+				INFOPLIST_FILE = "Haptic Playground WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartfarmer.Haptic-Playground.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9C835FD11B38525E008531F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Haptic Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartfarmer.Haptic-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C835FD21B38525E008531F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Haptic Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartfarmer.Haptic-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C835F8D1B38525E008531F2 /* Build configuration list for PBXProject "Haptic Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C835FC61B38525E008531F2 /* Debug */,
+				9C835FC71B38525E008531F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C835FC81B38525E008531F2 /* Build configuration list for PBXNativeTarget "Haptic Playground WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C835FC91B38525E008531F2 /* Debug */,
+				9C835FCA1B38525E008531F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C835FCC1B38525E008531F2 /* Build configuration list for PBXNativeTarget "Haptic Playground WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C835FCD1B38525E008531F2 /* Debug */,
+				9C835FCE1B38525E008531F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C835FD01B38525E008531F2 /* Build configuration list for PBXNativeTarget "Haptic Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C835FD11B38525E008531F2 /* Debug */,
+				9C835FD21B38525E008531F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C835F8A1B38525E008531F2 /* Project object */;
+}
